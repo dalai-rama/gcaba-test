@@ -1,0 +1,302 @@
+ @import '../node_modules/@gcba/obelisco/src/scss/variables/colors';
+ 
+
+//globales
+
+
+// PRIMER CONTENEDOR 
+
+.nav-container {
+    background-color: $light;
+    height: 309px; 
+  }
+
+  .navbar.navbar-light{
+    border-bottom: none !important;
+    box-shadow: 0 0 15px #36363666;
+  }
+
+
+// TARJETAS 
+
+.flex-container {
+    display: flex;
+    margin: 50px;
+    
+  }
+  
+  .card {
+    margin: auto 10px !important;
+    box-shadow: 0px 1px 3px #38485C33;
+  
+  }
+
+  .yellow{
+    box-shadow: inset 13px 0 0 0 #FFDB2E ;
+    
+   
+}
+  
+  .card-body {
+    padding: auto;
+
+  }
+
+
+
+  // FORMULARIO
+
+  #first-form {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin-top: 150px;
+    background-color: #4afaab50;
+    border-radius: 15px;
+    padding: 3rem;
+    height: 350px;
+  }
+
+  .form-container{
+    margin: 0 10%;
+  }
+
+  .form-wrapper{
+    width: 33%;
+    margin: 10px;
+  }
+
+  #phone-img{
+    position: relative;
+    left: 65%;
+    bottom: 80%;
+  }
+
+  #form-text{
+    width: 80%;
+  }
+
+  .btn-left{
+    position: relative;
+    right: 450px;
+  }
+
+  // SERVICIOS GENERALES
+
+  .servicios-container{
+    display: flex ;
+    margin: 2rem auto;
+    a{
+        text-decoration: none !important;
+    
+    }
+    
+   
+  }
+
+  .card-icon {
+    border-radius: 50% !important;
+  }
+
+.cards-container{
+    max-width: 35%;
+}
+
+#servicios-margin{
+    margin: 3rem auto;
+}
+
+// BLOG
+
+.blog-container{
+    display: flex;
+    margin: 45px auto 50px;
+}
+
+.data-container {
+    background-color: $light;
+    height: 268px; 
+  }
+
+  // LISTA
+
+  .list-container{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    padding: 0 50px;
+        span{
+            padding: 0 0 15px 0 ;
+        }
+
+        button{
+            margin-bottom: 50px;
+            width: fit-content;
+        }
+        
+  }
+
+  #list-containers{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+  }
+
+  .list-item{
+    display: flex;
+    width: 350px;
+    margin: 5px 25px 5px 0;
+    img{
+        padding: 0 25px 0 0;
+    }
+  }
+
+  //PREFOOTER
+
+  .prefooter{
+    background-color: $light;
+    height: 160px;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .prefooter-div{
+    padding-top: 40px;
+    h4{
+        margin-bottom: 30px;
+    }
+  }
+
+
+// MEDIA QUERY
+
+@media (max-width: 977px) {
+    *{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        .nav-container{
+            height: 700px    ;
+            .flex-container {
+                margin: auto;
+                a{
+                    margin-top: 20px !important;
+                    width: 100%;
+                }
+            }
+        }
+        title{
+            display: none;
+        }
+        
+    }
+
+
+    html{
+        width: fit-content;
+    }
+
+    span{
+        font-size: 15px;
+    }
+
+    .cards-container{
+        max-width: 100%;
+        margin-top: 25px;
+    }
+
+    .form-container{
+        margin: 0 ;
+        padding: 0;
+    }
+
+    #first-form{
+        flex-direction: column;
+        height: 760px;
+        border-radius: 0;
+
+
+        h2{
+            font-size: larger;
+        }
+        #form-text{
+            width: 100%;
+        }
+        
+        .form-wrapper{
+            width: 100%;
+        }
+
+        button{
+            margin: auto;
+            bottom: 200px;
+            left: -500px;
+        }
+
+        img{
+            height: 75%;
+            max-width: 664px;
+            top: 450px;
+            left: -400px;
+          
+        }
+
+        
+    }
+
+    .data-container{
+        height: auto;
+        button{
+            margin: 5px;
+            width: fit-content;
+        }
+        .container{
+            margin-bottom: 25px;
+        }
+    }
+
+    #list-containers{
+        margin: 0;
+    }
+
+    .list-container{
+        display: block;
+        padding: 0;
+        margin: 45px 0;
+}
+    .list-item{
+        display: flex;
+        flex-direction: row;
+}
+
+    .prefooter{
+        height: 295px;
+        a{
+            display: inline ;
+            text-align: left;
+            padding-bottom: 15px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+    }
+
+    #ba-ciudad-logo{
+        display: hidden;
+    }
+
+    #logo-ba-responsive{
+        position: absolute;
+        max-width: 150px;
+        bottom: 870px;
+    }
+
+    .main-footer{
+       padding-top: 100px;
+    }
+
+    header{
+        .container{
+            flex-direction: row;
+        }
+    }
+}

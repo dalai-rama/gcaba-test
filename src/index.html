@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba GCBA - Ramiro Canevari </title>
+    <link rel="stylesheet" type="text/css" href="../node_modules/@gcba/obelisco/dist/obelisco.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="shortcut icon" type="image/png" href="https://www.buenosaires.gob.ar/sites/gcaba/files/favicon.png">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="navbar navbar-light navbar-md">
+        <div class="container">
+          <a href="#" class="navbar-brand">
+            <img
+              class="header-logo"
+              src="../public/header/header-logo.svg"
+              alt="Ciudad de buenos aires"
+            />
+          </a>
+          <div class="navbar-search d-responsive ml-auto">
+            <form class="form-search form-search-sm">
+              <div class="form-group">
+                <input
+                  type="search"
+                  class="form-control form-control-sm input-search"
+                  id="header-search-example-1"
+                  name="header-search"
+                  placeholder="Buscar..."
+                  aria-label="Ingrese su búsqueda"
+                />
+                <button class="reset" type="reset"></button>
+              </div>
+            </form>
+          </div>
+         
+          <div class="collapse navbar-collapse">
+            <ul class="nav nav-pills">
+              <li class="nav-item d-responsive">
+                <div class="navbar-search">
+                  <form class="form-search form-search-sm">
+                    <div class="form-group">
+                      <input
+                        type="search"
+                        class="form-control form-control-sm input-search"
+                        id="header-search-example-2"
+                        name="header-search"
+                        placeholder="Buscar..."
+                        aria-label="Ingrese su búsqueda"
+                      />
+                      <button class="reset" type="reset"></button>
+                    </div>
+                  </form>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+<main>
+      <div class="nav-container">
+        <div class="container">
+        <div>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Buenos Aires</a></li>
+                <li class="breadcrumb-item"><a href="#">Salud</a></li>
+              </ol>
+            </nav>
+          </div>
+
+          <span>ÚLTIMA ACTUALIZACIÓN 28/05/2020 - 16:00 HS</span>
+
+          <h1>Coronavirus (Covid-19)</h1>
+          <p>Recomendaciones y medidas para el cumplimiento del <b>distanciamiento social,<br>
+             preventivo y obligatorio</b> establecido por el <a class="" href="#" target="_blank" rel="noreferrer">DNU 875/2020</a>    .</p>
+
+          <div class="flex-container">
+          <a class="card yellow" href="#">
+            <div class="card-body">
+              <h4 class="card-title">Testeos</h4>
+              <p class="card-text">
+                Si tenés algún síntoma, si estuviste en contacto con alguien.
+              </p>
+            </div>
+          </a>
+
+          <a class="card yellow" href="#">
+            <div class="card-body">
+              <h4 class="card-title">Vacunación</h4>
+              <p class="card-text">
+                Plan de vacunación estratégico nacional, gratuito y voluntario.
+              </p>
+            </div>
+          </a>
+
+          <a class="card yellow" href="#">
+            <div class="card-body">
+              <h4 class="card-title">Últimas medidas</h4>
+              <p class="card-text">
+                Conocé las medidas para las próximas semanas en la Ciudad.
+              </p>
+            </div>
+          </a>
+
+      </div>
+    </div>
+</div>
+    
+    <div class="form-container">
+        <div id="first-form">
+            <div id="form-text">
+            <h2> Consultar mi resultado </h2>
+            <p> Recordá que los datos deben ser los mismos que se dejaron al <br>
+            momento de testearse.</p>
+        </div>
+            <div class="form-wrapper">
+                <div class="form-group">
+                  <label for="dni-input">Número de documento *</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="dni-input"
+                    name="dni-input"
+                    placeholder="Ejemplo: ..."
+                  />
+                </div>
+              </div>
+              <div class="form-wrapper">
+                <div class="form-group">
+                  <label for="cellphone-input">Número de teléfono*</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="cellphone-input"
+                    name="cellphone-input"
+                    placeholder="Ejemplo: ..."
+                  />
+                </div>
+              </div>    
+              <img src="../public/phone-img.png" id="phone-img">  
+              <button type="button" class="btn btn-primary btn-left">Consultar</button>                      
+        </div>
+    </div>
+    
+    
+        <div class="container">
+        <div id="servicios-margin">
+        <h2> Servicios generales</h2> 
+        <div class="servicios-container">      
+            <div class="cards-container">
+                <div class="card card-simple">
+                <div class="card-body">
+                    <i class='bx bx-pulse card-icon'></i>
+                    <h4 class="card-subtitle"><a href="#">Información para el equipo de salud</a></h4>
+                    <p class="card-text">
+                        Recomendamos en este espacio no utilizar<br> más de 3 líneas.
+                    </p>
+                </div>
+                </div>
+            </div>
+            <div class="cards-container">
+                <div class="card card-simple">
+                <div class="card-body">
+                    <i class='bx bxs-megaphone card-icon'></i>
+                    <h4 class="card-subtitle"><a href="#">Protocolos de apertura</a></h4>
+                    <p class="card-text">
+                    Recomendamos en este espacio no utilizar<br> más de 3 líneas.
+                    </p>
+                </div>
+                </div>
+        </div>
+            <div class="cards-container">
+                <div class="card card-simple">
+                <div class="card-body">
+                    <i class='bx bx-notepad card-icon'></i>
+                    <h4 class="card-subtitle"><a href="#">Servicios y medidas de gobierno</a></h4>
+                    <p class="card-text">
+                    Recomendamos en este espacio no utilizar<br> más de 3 líneas.
+                    </p>
+                </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <h2>Propuestas para hacer en casa</h2>
+    <div class="blog-container">
+        <div class="card-container">
+            <a class="card" href="#">
+              <img
+                src="../public/Enmascarar grupo 171.png"
+                class="card-img-top"
+                alt="descripción vivamos la cultura"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Vivamos cultura</h4>
+                <p class="card-text">
+                  Recomendamos en este espacio no utilizar más de 3 líneas, para generar
+                  una lectura óptima.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="card-container">
+            <a class="card" href="#">
+              <img
+                src="../public/Enmascarar grupo 173.png"
+                class="card-img-top"
+                alt="descripción alternativa"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Estaciones saludables</h4>
+                <p class="card-text">
+                  Recomendamos en este espacio no utilizar más de 3 líneas, para generar
+                  una lectura óptima.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="card-container">
+            <a class="card" href="#">
+              <img
+                src="../public/Enmascarar grupo 174.png"
+                class="card-img-top"
+                alt="descripción alternativa"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Personas Mayores</h4>
+                <p class="card-text">
+                  Recomendamos en este espacio no utilizar más de 3 líneas, para generar
+                  una lectura óptima.
+                </p>
+              </div>
+            </a>
+          </div>
+          
+    </div>
+</div>
+
+</div>
+
+<div class="data-container" style="padding-top: 55px ;">
+    <div class="container">
+        <h2> Información en datos </h2>
+        <p>Conocé los datos de a evolución del COVID-19 y todo lo que estamos haciendo<br> en la Ciudad.</p>
+        <button type="button" class="btn btn-primary">Ver datos de covid-19</button>
+        <button type="button" class="btn btn-secondary">Ver informes diarios</button>
+    </div>
+</div>
+
+<div class="container">
+    <div id="list-containers">
+    <div class="list-container">
+        <h2>Prevención</h2>
+        <span>Limitá al máximo cualquier salida.</span>
+        <button type="button" class="btn btn-primary">Conocé los consejos para cuidarte</button>
+        <div class="list-item">
+            <img src="../public/icons/icon 05.svg" alt="ejemplo">
+            <p><b>El uso de tapabocas es obligatorio.</b></p>
+        </div>
+        <div class="list-item">
+            <img src="../public/icons/icon 13.svg" alt="ejemplo">
+            <p><b>Al toser y estornudar, cubrirse la boca y nariz con el codo.</b></p>
+        </div>
+        <div class="list-item">
+            <img src="../public/icons/icon 02.svg" alt="ejemplo">
+            <p><b>Limpiar superficies con agua y lavandina.</b></p>
+        </div>
+        <div class="list-item">
+            <img src="../public/icons/icon 01.svg" alt="ejemplo">
+            <p><b>Lavarse la manos con agua y jabón o usar alcohol en gel.</b></p>
+        </div>
+        <div class="list-item">
+            <img src="../public/icons/icon 09.svg" alt="ejemplo">
+            <p><b>Evitar tocarse la cara con las manos.</b></p>
+        </div>
+        <div class="list-item">
+            <img src="../public/icons/icon 11.svg" alt="ejemplo">
+            <p><b>Mantener al menos 2 metros de distanciamiento social.</b></p>
+        </div>
+        <div class="list-item">
+            <img src="../public/icons/icon 14.png" alt="ejemplo">
+            <p><b>Ventilemos lugares cerrados.</b></p>
+        </div>
+
+    </div>
+    <div class="list-container">
+        <h2>Sintomas</h2>
+        <span>Si presentas alguno de estos síntomas.</span>
+        <button type="button" class="btn btn-primary">Acercate a una UFU</button>
+        <div class="list-item">
+            <img src="../public/icons/icon 07.svg" alt="ejemplo">
+            <p><b>Temperatura mayor a 37.5º</b></p>
+        </div>
+        <div class="list-item">
+            <img src="../public/icons/icon 08.svg" alt="ejemplo">
+            <p><b>Dolor de garganta</b></p>
+        </div>
+        <div class="list-item">
+            <img src="../public/icons/icon 06.svg" alt="ejemplo">
+            <p><b>Tos seca continua</b></p>
+        </div>
+        <div class="list-item">
+            <img src="../public/icons/icon 04.svg" alt="ejemplo">
+            <p><b>Dificultad para respirar</b></p>
+        </div>
+        <div class="list-item">
+            <img src="../public/icons/icon 03.svg" alt="ejemplo">
+            <p><b>Pérdida del olfato o del gusto</b></p>
+        </div>
+        <div class="list-item">
+            <img src="../public/icons/icon 12.png" alt="ejemplo">
+            <p><b>Cefalea</b></p>
+        </div>
+        <div class="list-item">
+            <img src="../public/icons/icon 10.png" alt="ejemplo">
+            <p><b>Diarrea y/o vómitos</b></p>
+        </div>
+
+    </div>
+</div>
+<a class="" href="#" target="_blank" rel="noreferrer">Preguntas frecuentes</a>
+</div>
+
+<div class="prefooter">
+<div class="container">
+    <div class="prefooter-div">
+        <h4>Información oficial del Gobierno Nacional</h4>
+        <a class="external" href="#" target="_blank" rel="noreferrer">App cuidar</a>
+        <a class="external" href="#" target="_blank" rel="noreferrer">Rectificación autodiagnóstico cuidar</a>
+        <a class="external" href="#" target="_blank" rel="noreferrer">Agencia Nacional de Discapacidad</a>
+        <a class="external" href="#" target="_blank" rel="noreferrer">Información COVID-19</a>
+    </div>
+</div>
+</div>
+
+</main>
+
+<footer class="main-footer">
+    <div class="container">
+      <section>
+        <h4>Teléfonos útiles</h4>
+        <ul class="list-inline">
+          <li class="list-inline-item phone-items">
+            <a href="tel:102">102 - Niñez y Adolescencia</a>
+          </li>
+          <li class="list-inline-item phone-items">
+            <a href="tel:103">103 - Emergencias</a>
+          </li>
+          <li class="list-inline-item phone-items">
+            <a href="tel:107">107 - SAME</a>
+          </li>
+          <li class="list-inline-item phone-items">
+            <a href="tel:911">911 - Policía</a>
+          </li>
+          <li class="list-inline-item phone-items">
+            <a href="tel:144">144 - Violencia de género</a>
+          </li>
+          <li class="list-inline-item phone-items">
+            <a href="tel:147">147 - Atención ciudadana</a>
+          </li>
+        </ul>
+        <a href="https://www.buenosaires.gob.ar/laciudad/telefonosutiles">
+          Ver todos los teléfonos
+        </a>
+      </section>
+      <section>
+        <h4>Redes de la ciudad</h4>
+        <ul class="list-inline">
+          <li class="list-inline-item redes-items">
+            <a href="https://www.facebook.com/GCBA">
+              <i class="bx bxl-facebook"></i>
+              Facebook
+            </a>
+          </li>
+          <li class="list-inline-item redes-items">
+            <a href="https://www.instagram.com/buenosaires">
+              <i class="bx bxl-instagram"></i>
+              Instagram
+            </a>
+          </li>
+          <li class="list-inline-item redes-items">
+            <a href="https://twitter.com/gcba">
+              <i class="bx bxl-twitter"></i>
+              Twitter
+            </a>
+          </li>
+          <li class="list-inline-item redes-items">
+            <a href="https://www.youtube.com/user/GCBA">
+              <i class="bx bxl-youtube"></i>
+              YouTube
+            </a>
+          </li>
+          <li class="list-inline-item redes-items">
+            <a
+              href="https://ar.linkedin.com/company/gobierno-de-la-ciudad-de-buenos-aires"
+            >
+              <i class="bx bxl-linkedin"></i>
+              LinkedIn
+            </a>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <hr class="divider" />
+    <div class="container">
+      <section class="footer-legal-section">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-5 col-xl-4 mb-4 mb-md-0 footer-content-img">
+            <img
+              id="logo-ba-responsive"
+              class="d-lg-none"
+              src="../public/footer/ba_vamosba_negro.png"
+              alt="Ciudad de Buenos Aires"
+              height="48"
+              style="filter: invert();"
+            />
+            <img
+              id="ba-ciudad-logo"
+              class="d-none d-lg-inline"
+              src="../public/footer/ba_vamosba_negro.png"
+              alt="Ciudad de Buenos Aires"
+              style="filter: invert(70%);"
+              height="40"
+            />
+            <img
+              class="img-vamos-ba"
+              src="../public/footer/logo-gcba.svg"
+              alt="Vamos Buenos Aires"
+              style="filter: invert();"
+            />
+          </div>
+          <div class="col-12 col-md-7 col-xl-8">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="https://boletinoficial.buenosaires.gob.ar">
+                  Boletín oficial
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href="https://www.buenosaires.gob.ar/innovacion/ciudadinteligente/terminos-y-condiciones"
+                >
+                  Términos y condiciones
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.buenosaires.gob.ar/privacidad">
+                  Política de privacidad
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.buenosaires.gob.ar/oficiosjudiciales">
+                  Oficios judiciales
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="footer-license-text">
+          Los contenidos de buenosaires.gob.ar están licenciados bajo
+          <br class="d-none d-sm-inline" />
+          Creative Commons Reconocimiento 2.5 Argentina License.
+        </div>
+      </section>
+    </div>
+  </footer>
+  
+</body>
+</html>

@@ -1,0 +1,250 @@
+/* === Gray scale === */
+/* === Grisulado === */
+/* === Color palette === */
+/* === Color types === */
+/* === Color theme === */
+/* === Body === */
+/* === Custom forms & stuff === */
+.nav-container {
+  background-color: #f3f6f9;
+  height: 309px;
+}
+
+.navbar.navbar-light {
+  border-bottom: none !important;
+  box-shadow: 0 0 15px rgba(54, 54, 54, 0.4);
+}
+
+.flex-container {
+  display: flex;
+  margin: 50px;
+}
+
+.card {
+  margin: auto 10px !important;
+  box-shadow: 0px 1px 3px rgba(56, 72, 92, 0.2);
+}
+
+.yellow {
+  box-shadow: inset 13px 0 0 0 #FFDB2E;
+}
+
+.card-body {
+  padding: auto;
+}
+
+#first-form {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin-top: 150px;
+  background-color: rgba(74, 250, 171, 0.3137254902);
+  border-radius: 15px;
+  padding: 3rem;
+  height: 350px;
+}
+
+.form-container {
+  margin: 0 10%;
+}
+
+.form-wrapper {
+  width: 33%;
+  margin: 10px;
+}
+
+#phone-img {
+  position: relative;
+  left: 65%;
+  bottom: 80%;
+}
+
+#form-text {
+  width: 80%;
+}
+
+.btn-left {
+  position: relative;
+  right: 450px;
+}
+
+.servicios-container {
+  display: flex;
+  margin: 2rem auto;
+}
+.servicios-container a {
+  text-decoration: none !important;
+}
+
+.card-icon {
+  border-radius: 50% !important;
+}
+
+.cards-container {
+  max-width: 35%;
+}
+
+#servicios-margin {
+  margin: 3rem auto;
+}
+
+.blog-container {
+  display: flex;
+  margin: 45px auto 50px;
+}
+
+.data-container {
+  background-color: #f3f6f9;
+  height: 268px;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  padding: 0 50px;
+}
+.list-container span {
+  padding: 0 0 15px 0;
+}
+.list-container button {
+  margin-bottom: 50px;
+  width: fit-content;
+}
+
+#list-containers {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.list-item {
+  display: flex;
+  width: 350px;
+  margin: 5px 25px 5px 0;
+}
+.list-item img {
+  padding: 0 25px 0 0;
+}
+
+.prefooter {
+  background-color: #f3f6f9;
+  height: 160px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.prefooter-div {
+  padding-top: 40px;
+}
+.prefooter-div h4 {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 977px) {
+  * {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  * .nav-container {
+    height: 700px;
+  }
+  * .nav-container .flex-container {
+    margin: auto;
+  }
+  * .nav-container .flex-container a {
+    margin-top: 20px !important;
+    width: 100%;
+  }
+  * title {
+    display: none;
+  }
+  html {
+    width: fit-content;
+  }
+  span {
+    font-size: 15px;
+  }
+  .cards-container {
+    max-width: 100%;
+    margin-top: 25px;
+  }
+  .form-container {
+    margin: 0;
+    padding: 0;
+  }
+  #first-form {
+    flex-direction: column;
+    height: 760px;
+    border-radius: 0;
+  }
+  #first-form h2 {
+    font-size: larger;
+  }
+  #first-form #form-text {
+    width: 100%;
+  }
+  #first-form .form-wrapper {
+    width: 100%;
+  }
+  #first-form button {
+    margin: auto;
+    bottom: 200px;
+    left: -500px;
+  }
+  #first-form img {
+    height: 75%;
+    max-width: 664px;
+    top: 450px;
+    left: -400px;
+  }
+  .data-container {
+    height: auto;
+  }
+  .data-container button {
+    margin: 5px;
+    width: fit-content;
+  }
+  .data-container .container {
+    margin-bottom: 25px;
+  }
+  #list-containers {
+    margin: 0;
+  }
+  .list-container {
+    display: block;
+    padding: 0;
+    margin: 45px 0;
+  }
+  .list-item {
+    display: flex;
+    flex-direction: row;
+  }
+  .prefooter {
+    height: 295px;
+  }
+  .prefooter a {
+    display: inline;
+    text-align: left;
+    padding-bottom: 15px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  #ba-ciudad-logo {
+    display: hidden;
+  }
+  #logo-ba-responsive {
+    position: absolute;
+    max-width: 150px;
+    bottom: 870px;
+  }
+  .main-footer {
+    padding-top: 100px;
+  }
+  header .container {
+    flex-direction: row;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
